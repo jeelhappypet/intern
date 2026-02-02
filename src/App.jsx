@@ -76,7 +76,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-green-400 via-blue-400 to-yellow-300 flex items-center justify-center p-4">
       <div className="bg-white bg-opacity-90 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full max-w-lg">
         <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
           Todo list
