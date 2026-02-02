@@ -63,13 +63,13 @@ function App() {
   };
 
   const handleSearchChange = (e) => {
-    const searchTerm = e.target.value.toLowerCase();
+    const search = e.target.value.toLowerCase();
 
-    if (searchTerm === "") {
+    if (search === "") {
       setFilteredTasks(tasks);
     } else {
       const result = tasks.filter((task) =>
-        task.text.toLowerCase().includes(searchTerm)
+        task.text.toLowerCase().includes(search)
       );
       setFilteredTasks(result);
     }
